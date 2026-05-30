@@ -1,1 +1,18 @@
-this shi is fire trust. 
+Building from source
+
+Requirements: Python 3.10+
+
+
+# 1. Clone the repo
+git clone https://github.com/YOURNAME/megabonk-hunter.git
+cd megabonk-hunter
+
+# 2. Install dependencies
+pip install pyautogui customtkinter pywin32 matplotlib pyinstaller
+
+# 3. Run directly with Python
+python megahunter_app.py
+
+# 4. Or build your own exe
+pyinstaller megahunter_app.spec
+# Output will be in dist/megahunter_app.exe
